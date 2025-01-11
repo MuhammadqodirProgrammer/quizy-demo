@@ -47,7 +47,7 @@
       }
 
       h1 {
-        margin-top: 120px;
+        margin-top: 80px;
         margin-bottom: 100px;
       }
 
@@ -83,10 +83,10 @@
         display: flex;
         justify-content: center;
         gap: 15px;
-        position: absolute;
-        bottom: 0%;
-        left: 50%;
-        transform: translateX(-50%);
+        /* position: absolute; */
+        /* bottom: 0%; */
+        /* left: 50%; */
+        /* transform: translateX(-50%); */
       }
 
       .telegram {
@@ -134,6 +134,13 @@
       .bg-anim i {
         font-size: 12px;
         z-index: -1;
+      }
+      .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        padding: 20px 0;
       }
 
       @keyframes float {
@@ -209,26 +216,28 @@
 
     <div class="content">
       <h1>QUIZY</h1>
-      <h2 class="soon" style="color: #2f80ed">TEZ KUNDA!</h2>
-      <div class="countdown">
-        <div>
-          <span class="time" id="days">00</span><br />
-          <span class="label">days</span>
-        </div>
-        <div>
-          <span class="time" id="hours">00</span><br />
-          <span class="label">hours</span>
-        </div>
-        <div>
-          <span class="time" id="minutes">00</span><br />
-          <span class="label">minutes</span>
-        </div>
-        <div>
-          <span class="time" id="seconds">00</span><br />
-          <span class="label">seconds</span>
-        </div>
+      <div>
+        <h2 class="soon" style="color: #2f80ed">TEZ KUNDA!</h2>
+        <!-- <div class="countdown">
+          <div>
+            <span class="time" id="days">00</span><br />
+            <span class="label">days</span>
+          </div>
+          <div>
+            <span class="time" id="hours">00</span><br />
+            <span class="label">hours</span>
+          </div>
+          <div>
+            <span class="time" id="minutes">00</span><br />
+            <span class="label">minutes</span>
+          </div>
+          <div>
+            <span class="time" id="seconds">00</span><br />
+            <span class="label">seconds</span>
+          </div>
+        </div> -->
       </div>
-
+<iframe src="./time.html" frameborder="0"></iframe>
       <div class="social-icons">
         <a href="" target="_blank"
           ><img
